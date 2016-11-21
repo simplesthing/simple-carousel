@@ -1,0 +1,29 @@
+{
+  "name": "simple-carousel",
+  "version": "1.0.0",
+  "description": "A simple JavaScript carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha  --compilers js:babel-core/register",
+    "dev": "webpack-dev-server --content-base ./src --inline --hot",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Ava Collins <i.am.simplesthing@gmail.com> (http://github.com/simplesthing)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "mocha": "^3.1.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "flickrapi": "^0.6.0"
+  }
+}
