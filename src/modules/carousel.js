@@ -100,14 +100,14 @@ class Carousel {
     return template
   }
 
-  build(photos) {
+  build(photos, domElem) {
     const _photos = photos.concat(photos)
     const template = this.template(photos.length)
     const list = template.querySelector('#carousel_list')
     const items = _photos.map( item => {
       list.appendChild(this.items(item))
     })
-    const _carousel = document.getElementById('container')
+    const _carousel = document.getElementById(domElem)
     _carousel.appendChild(template)
     this.events()
   }
@@ -120,7 +120,7 @@ class Carousel {
       API.photos(res).then(results => {
         this.length = results.photos.photo.length
         this.width = results.photos.photo.length * 200
-        this.build(results.photos.photo)
+        this.build(results.photos.photo, domElem)
       })
     })
   }

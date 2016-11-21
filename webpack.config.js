@@ -8,8 +8,8 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
     path: assetPath,
-    filename: 'bundle.js',
-    publicPath: '/dist/'
+    filename: 'carousel.js',
+    publicPath: '/'
   },
   stats: {
     colors: true,
@@ -26,10 +26,6 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
-      },
-      {
-        test: /\.(png|jpg|gif)$/,
-        loader: 'url-loader?limit=5000&name=img/img-[hash:6].[ext]'
       }
     ]
   }
