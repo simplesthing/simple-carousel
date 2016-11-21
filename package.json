@@ -2,7 +2,8 @@
   "name": "simple-carousel",
   "version": "1.0.0",
   "description": "A simple JavaScript carousel",
-  "main": "index.js",
+  "main": "dist/carousel.js",
+  "browser": "dist/carousel.css",
   "scripts": {
     "test": "mocha  --compilers js:babel-core/register",
     "dev": "webpack-dev-server --content-base ./src --inline --hot",

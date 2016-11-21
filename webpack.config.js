@@ -9,7 +9,7 @@ module.exports = {
 	output: {
     path: assetPath,
     filename: 'carousel.js',
-    publicPath: '/'
+    publicPath: '/dist'
   },
   stats: {
     colors: true,
