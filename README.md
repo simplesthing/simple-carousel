@@ -17,8 +17,6 @@ To use this carousel in your own webpage you will need an html page with the fol
 - A script tag with the `carousel.js` (found in the `/dist` directory)
 - A link with the `carousel.css` (also found in the `/dist` directory)
 
-    <!DOCTYPE html>
-    <html lang="en">
     <head>
       <meta charset="UTF-8">
       <title>Simple Carousel</title>
