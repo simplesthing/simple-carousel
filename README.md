@@ -14,20 +14,19 @@ You can see a live demo at [https://simplesthing.github.io/simple-carousel](http
 To use this carousel in your own webpage you will need an html page with the following things:
 
 - A DOM element with the id `simple-carousel`
+
+    `<div id="simple-carousel"></div>`
+
 - A script tag with the `carousel.js` (found in the `/dist` directory)
+
+    `<script src="carousel.js"></script>`
+
 - A link with the `carousel.css` (also found in the `/dist` directory)
 
-    <head>
-      <meta charset="UTF-8">
-      <title>Simple Carousel</title>
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-      <link rel="stylesheet" href="carousel.css">
-    </head>
-    <body>
-      <div id="simple-carousel"></div>
-      <script src="carousel.js"></script>
-    </body>
-    </html>
+    `<link rel="stylesheet" href="carousel.css">`
+
+
+
 
 
 ## Development
